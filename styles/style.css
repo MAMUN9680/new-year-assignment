@@ -1,0 +1,47 @@
+font-family: 'Brygada 1918',
+serif;
+font-family: 'Inter',
+sans-serif;
+font-family: 'Lato',
+sans-serif;
+font-family: 'Merriweather',
+serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+}
+
+.container {
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.banner-section {
+    background-image: url(../resources/Banner.png);
+    height: 600px;
+    border-radius: 16px;
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+.banner-section h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 0 530px;
+
+}
+.banner-section h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    width: 600px;
+    text-align: center;
+    padding: 0 340px;
+    margin-bottom: 150px;
+}
