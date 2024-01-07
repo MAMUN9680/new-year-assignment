@@ -26,7 +26,7 @@ serif;
     padding-top: 120px;
     background-repeat: no-repeat;
     text-align: center;
-    
+
 }
 
 .banner-section h3 {
@@ -36,6 +36,7 @@ serif;
     padding: 0 530px;
 
 }
+
 .banner-section h1 {
     color: #FFF;
     font-size: 72px;
@@ -44,4 +45,28 @@ serif;
     text-align: center;
     padding: 0 340px;
     margin-bottom: 150px;
+}
+
+/* hero-section */
+.hero-section {
+    text-align: center;
+    margin: auto;
+}
+
+.hero-section h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.hero-section h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero-section h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
 }
