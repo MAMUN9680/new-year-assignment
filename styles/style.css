@@ -215,31 +215,55 @@ serif;
 }
 
 /* DISCOUNT OFFER SECTION */
-.discount-offer{
+.discount-offer {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
-    position: relative;
 }
 
-/* .discount-offer-one{
-    position: relative;
-} */
-.discount-offer-two{
+.discount-offer-two {
     top: 50px;
     position: relative;
     right: 40px;
-    
 }
- 
-.discount-offer-three{
+
+.discount-offer-three {
     margin-left: -215px;
 }
 
-.discount-offer-four{
+.discount-offer-four {
     bottom: 235px;
     position: relative;
 }
-/* .discount-offer{
-    position: relative;
+
+/* PORTFOLIO CONTENT */
+/* .fortpolio-content{
+    padding-bottom: 500px;
 } */
+.portfolio-content h5 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-content h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-content p {
+    max-width: 750px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;   
+}
+
+/* PORTFOLIO IMAGE */
+
+.portfolio-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
