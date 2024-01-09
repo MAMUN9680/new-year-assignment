@@ -238,6 +238,7 @@ serif;
 .discount-offer-four {
     bottom: 235px;
     position: relative;
+    z-index: -1;
 }
 
 /* PORTFOLIO CONTENT */
